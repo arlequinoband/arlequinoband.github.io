@@ -1,7 +1,30 @@
 body {
-    font-family: sans-serif
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #333333;
+  color: #dddddd;
 }
 
-#bandcampPlayer {
-    text-align: center
+.header {
+    max-width: 90%;
+}
+
+h1 {
+  color: #8d3b26;
+  font-size: 1.8em;
+}
+
+.content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  color: #8d3b26;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8d3b26;
+  text-decoration: underline;
 }
