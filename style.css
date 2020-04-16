@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  font-size: 1.1em;
   background: #333333;
   color: #dddddd;
 }
@@ -27,4 +28,10 @@ a {
 a:hover {
   color: #8d3b26;
   text-decoration: underline;
+}
+
+/* Social icons */
+.fab {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
 }
