@@ -47,5 +47,6 @@ a:hover {
 
 img.music-platform {
   width: 3em;
+  padding-left: 1em;
   padding-right: 1em;
 }
