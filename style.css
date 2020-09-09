@@ -1,3 +1,13 @@
+@font-face {
+  font-family:"Futura-LT-Book";
+  src:url("Futura LT Book.woff2") format("woff2"),url("Futura LT Book.woff") format("woff"),url("Futura LT Book.otf") format("opentype");
+  font-style:normal;font-weight:400;
+}
+
+* {
+  font-family: Futura-LT-Book, sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -11,7 +21,6 @@ body {
 }
 
 h1 {
-  color: #316AB1;
   font-size: 1.8em;
 }
 
@@ -26,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #316AB1;
+  color: #ffffff;
   text-decoration: underline;
 }
 
