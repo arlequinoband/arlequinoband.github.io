@@ -48,8 +48,99 @@ a:hover {
   padding-right: 0.3em;
 }
 
-img.music-platform {
+.ep-release {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em 1em;
+  padding: 1.2em;
+}
+
+.ep-release > img {
+  width: 100%;
+}
+
+.ep-release > iframe {
+  border: 0;
+  width: 100%;
+  height: 274px;
+}
+
+.single-release {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1.2em;
+  justify-items: center;
+}
+
+.single-release > * {
+  max-width: 500px;
+  width: 100%;
+}
+
+.single-release iframe {
+  border: 0;
+  height: 120px;
+}
+
+/* Bandcamp player */
+.bc-player {
+  border: 0;
+  width: 350px;
+  height: 588px;
+}
+
+.music-stores {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.music-stores img {
   width: 3em;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+/* Screen sizes */
+
+@media only screen and (max-width: 600px) {
+  .header {
+    max-width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.1em;
+  }
+
+  .ep-release {
+    grid-template-columns: 1fr;
+  }
+
+  .music-stores img {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .bc-player {
+    border: 0;
+    width: 300px;
+    height: 550px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    .bc-player {
+      border: 0;
+      width: 270px;
+      height: 520px;
+    }
+
+    .music-stores img {
+      padding-left: 0.2em;
+      padding-right: 0.2em;
+    }
 }
